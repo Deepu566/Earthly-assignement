@@ -34,6 +34,11 @@ const Header = () => {
                     </div>
                 </div>
             </div>
+            <div className='fixed left-5 top-3 bg-black h-16 px-4 py-2 text-white w-20'>
+                <span className='text-[18px]' opacity-50 >we</span>
+                <span className='text-[10px]'>are</span><br />
+                <span className='leading-3 text-2xl'>OSM</span >
+            </div>
             <div className="fixed z-30 h-60 object-cover right-0 top-52">
                 <img className='h-full w-full' src="https://weareosm.com/wp-content/uploads/2020/03/ele_toptenbadge_A-2.svg" alt="" />
             </div>
@@ -52,8 +57,9 @@ const Header = () => {
                     <a href="">Joberty</a>
                 </div>
             </div>
-            <div className='fixed h-12 w-12 flex items-center justify-center z-30 left-5 top-[580px] rounded-full border-8 border-black '>
-                <div className=' h-0 w-0  rounded-full border-8 border-red-900 '></div>
+            <div className='fixed z-30 left-5 text-center top-[550px] text-8xl font-extrabold'>
+                c
+                <div className=' h-0 w-0 absolute top-14 left-5  rounded-full border-8 border-red-900 '></div>
             </div>
 
         </div>

@@ -1,11 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { CgShapeHexagon } from "react-icons/cg"
-import Section1 from './Section1'
+
 
 const Section4 = () => {
-    // const [title, SetTitle] = useState(null);
-    // SetTitle("deepak");
-    // console.log(title)
     return (
         <>
             <div className='py-16 text-[#B53822] flex justify-center items-center section5  bg-contain bg-fixed'>
@@ -40,7 +37,34 @@ const Section4 = () => {
                     </div>
                 </div>
             </div>
-            <Section1 />
+            <div className='py-16 text-[#B53822] w-full flex items-center justify-center  bg-[#c498a2]'>
+                <div className='w-11/12 h-5/6 flex'>
+                    <div className='flex-1 flex justify-center items-center '>
+                        <div className='ml-16 text-4xl tracking-tight font-bold'>
+                            <p>We understand your concerns about outsourcing. We’ve
+                                seen the challenges, and we’ve solved them.</p>
+                        </div>
+                    </div>
+                    <div className='flex-1'>
+                        <div className='mt-16 ml-60 mr-20 flex flex-col gap-5 font-medium text-xl'>
+                            <p>
+                                Being over a decade in the IT industry helps us to recognize and overcome all obstacles.
+                                We  constantly seek talents for our own projects, and for our clients.
+                            </p>
+                            <p>
+                                That’s why we see all outsourcing challenges from multiple angles, and know how to act accordingly!
+                            </p>
+
+                            <button
+                                className='hover:bg-[#B53822] hover:text-white
+             transition-colors px-6 py-1 text-base font-bold uppercase 
+             self-start border-4 border-[#B53822]'>
+                                Find out more
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }

@@ -40,7 +40,7 @@ const footer = () => {
                             <li>Nearshoring</li>
                         </ul>
                     </div>
-                    <div>
+                    <div className="flex flex-col gap-10">
                         <ul className='footer-ul'>
                             <h1>Support & Maintenance Services. </h1>
                             <li>IT Support Services</li>
