@@ -5,6 +5,7 @@
 
 * {
     font-family: 'Dosis', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .section3 {
@@ -13,4 +14,14 @@
 
 .section4 {
     background-image: url('https://weareosm.com/wp-content/uploads/2021/07/Navy-Grey.webp');
+}
+
+.section5 {
+    background-image: url('https://weareosm.com/wp-content/uploads/2021/07/Mars-Nose.webp');
+}
+
+.footer-ul h1 {
+    font-size: 30px;
+    line-height: normal;
+    font-weight: 700;
 }

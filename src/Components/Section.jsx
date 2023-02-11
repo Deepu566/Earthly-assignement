@@ -3,7 +3,7 @@ import React from 'react'
 const Section = () => {
     return (
         <>
-            <div className='py-10 text-[#15682E] w-full flex items-center justify-center bg-[#c7e6e2]'>
+            <div id='section1' className='py-10 text-[#15682E] w-full flex items-center justify-center bg-[#c7e6e2]'>
                 <div className='w-11/12 h-5/6 flex'>
                     <div className='flex-1'>
                         <div className='ml-16 w-fit mt-16 mb-7 font-bold text-2xl uppercase pb-4 border-b-4 border-[#15682E] '>

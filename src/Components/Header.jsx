@@ -2,7 +2,6 @@ import React from 'react'
 import Img1 from "../utillities/HeaderImg1.webp"
 import Img2 from "../utillities/HeaderImg2.svg"
 import Img3 from "../utillities/HeaderImg3.svg"
-// import { ImArrowDown2 } from "react-icons/fa";
 import { ImArrowDown2 } from 'react-icons/im';
 
 const Header = () => {
@@ -24,7 +23,9 @@ const Header = () => {
                     </div>
                     <div className='w-2/4 '>
                         <div className='flex flex-col my-5 items-center'>
-                            <ImArrowDown2 className='animate-bounce cursor-pointer text-black text-5xl' />
+                            <a href="#section1">
+                                <ImArrowDown2 className='animate-bounce cursor-pointer text-black text-5xl' />
+                            </a>
                         </div>
                         <div className='text-1xl font-extrabold text-center italic '>
                             <p>*Awesome /ˈoːs(ə)m/ [adjective - extremely impressive or daunting]</p>
@@ -33,16 +34,16 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            <div className="fixed h-60 object-cover right-0 top-52">
+            <div className="fixed z-30 h-60 object-cover right-0 top-52">
                 <img className='h-full w-full' src="https://weareosm.com/wp-content/uploads/2020/03/ele_toptenbadge_A-2.svg" alt="" />
             </div>
-            <div className='h-12 w-12 fixed left-5 top-[450px]'>
+            <div className='h-12 w-12 fixed z-30 left-5 top-[450px]'>
                 <img src={Img1} className='h-full w-full  ' alt="" />
             </div>
-            <div className='h-12 w-12 fixed left-5 top-[530px]'>
+            <div className='h-12 w-12 fixed z-30 left-5 top-[520px]'>
                 <img src={Img2} className='h-full w-full' alt="" />
             </div>
-            <div className='h-14 w-14 fixed right-5 top-[500px]'>
+            <div className='h-14 w-14 fixed z-30 right-5 top-[500px]'>
                 <img src={Img3} alt="" />
                 <div className='flex flex-col underline uppercase text-[10px] font-bold mt-5'>
                     <a href="">Instagram</a>
@@ -50,6 +51,9 @@ const Header = () => {
                     <a href="">LinkedIN</a>
                     <a href="">Joberty</a>
                 </div>
+            </div>
+            <div className='fixed h-12 w-12 flex items-center justify-center z-30 left-5 top-[580px] rounded-full border-8 border-black '>
+                <div className=' h-0 w-0  rounded-full border-8 border-red-900 '></div>
             </div>
 
         </div>
